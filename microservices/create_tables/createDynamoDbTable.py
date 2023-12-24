@@ -1,8 +1,8 @@
 import boto3
 
 # Your AWS credentials and region
-aws_access_key_id = 'AKIA5JICGBL56S3FVLQ4'
-aws_secret_access_key = '0o7geBhdS8ztAmQlSHhgEP3FlE+WQQCuppt4B1zF'
+aws_access_key_id = 'your_details'
+aws_secret_access_key = 'your_details'
 region_name = 'ap-southeast-1'
 
 # Create a DynamoDB resource
