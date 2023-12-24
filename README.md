@@ -141,6 +141,17 @@ In this microservice, data is extracted from the final target tale and display i
 Created 2 tables to store and retrieve data from dynamodb in was.
 ![image](https://github.com/DevaniYasora/DEVELOPER_IQ/assets/64655854/74233d9e-a0ed-4cf8-a97b-5e7aa658311b)
 
+**Step 04: CICD pipeline**
+Code repo: Codecommit
+Image repo : ECR
+![image](https://github.com/DevaniYasora/DEVELOPER_IQ/assets/64655854/965b1812-b330-41e6-a2ff-1011202cfe80)
+![image](https://github.com/DevaniYasora/DEVELOPER_IQ/assets/64655854/fc06a7a5-a2b5-4a82-b467-3e60d1a61af5)
+
+![image](https://github.com/DevaniYasora/DEVELOPER_IQ/assets/64655854/3ab8721e-2537-4985-890e-86effc658198)
+
+
+
+
 
 
 
