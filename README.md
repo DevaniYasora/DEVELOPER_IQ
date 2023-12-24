@@ -146,8 +146,28 @@ Code repo: Codecommit
 Image repo : ECR
 ![image](https://github.com/DevaniYasora/DEVELOPER_IQ/assets/64655854/965b1812-b330-41e6-a2ff-1011202cfe80)
 ![image](https://github.com/DevaniYasora/DEVELOPER_IQ/assets/64655854/fc06a7a5-a2b5-4a82-b467-3e60d1a61af5)
+![image](https://github.com/DevaniYasora/DEVELOPER_IQ/assets/64655854/b6adf0fc-9f84-44b2-b35a-107974115b0f)
 
-![image](https://github.com/DevaniYasora/DEVELOPER_IQ/assets/64655854/3ab8721e-2537-4985-890e-86effc658198)
+
+**Step 05: TEST SUIT**
+1- jmeter:
+
+![image](https://github.com/DevaniYasora/DEVELOPER_IQ/assets/64655854/b8f10f2e-0bc3-41f2-849f-ee3e49807bc7)
+
+2- Sample test case code implemented for Microservice 1- Extract data from GitHub:
+Unit test for an HTTP GET request to a specific endpoint of a web service. It verifies the expected status code and the format of the JSON response. If any assertions fail during the test execution, the test will report an error.
+![image](https://github.com/DevaniYasora/DEVELOPER_IQ/assets/64655854/a252571e-3282-4558-bb0f-effaa5e9f21a)
+![image](https://github.com/DevaniYasora/DEVELOPER_IQ/assets/64655854/f7406e9b-1f58-49bc-b752-c94e1325f8f2)
+
+
+**Step 06: monitoring:**
+
+![image](https://github.com/DevaniYasora/DEVELOPER_IQ/assets/64655854/9a25d832-7239-4de6-b889-fc7d8264e82f)
+![image](https://github.com/DevaniYasora/DEVELOPER_IQ/assets/64655854/f8684750-a61b-471d-9080-4045d9be1ce9)
+![image](https://github.com/DevaniYasora/DEVELOPER_IQ/assets/64655854/4bec96b3-00bb-4af2-b9be-f91793be8f81)
+![image](https://github.com/DevaniYasora/DEVELOPER_IQ/assets/64655854/5fdf2fe9-f166-4dc7-b468-178219777806)
+![image](https://github.com/DevaniYasora/DEVELOPER_IQ/assets/64655854/e0fa1755-ab1f-470d-9915-382b81ffc757)
+
 
 
 
