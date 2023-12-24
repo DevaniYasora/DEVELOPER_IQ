@@ -54,6 +54,7 @@ Number of nodes: 3
 ![image](https://github.com/DevaniYasora/DEVELOPER_IQ/assets/64655854/c947f2a8-dcdf-47a8-95f3-68ae0262f898)
 
 **Step 02: Microservices:**
+All python,ymal and all codes related to each microservices are included under **microservice** folder
 
 There are 3 main microservices developed under the project. 
 Microservice 1- Extract data from GitHub
@@ -87,12 +88,6 @@ In this stage extracted data calling 4 APIs.
 4- CONTRIBUTOR_ISSUES_URI__(repo_owner, repo_name, contributor_login, token): https://api.github.com/repos/freeCodeCamp/mobile/issues (calculate the number of issues created weekly, monthly and yearly.
 ![image](https://github.com/DevaniYasora/DEVELOPER_IQ/assets/64655854/812b5ba9-4d15-4d24-8b97-7af3574b5f68)
 
-
-
-
-
-
-![image](https://github.com/DevaniYasora/DEVELOPER_IQ/assets/64655854/edd69b36-b9b6-4c81-8667-145daa6be642)
 
  
 
@@ -138,8 +133,13 @@ After the process completed, it will display a message:
 
 **Microservice 3- Display final productivity values.**
 In this microservice, data is extracted from the final target tale and display in a proper way in the web browser. 
+![image](https://github.com/DevaniYasora/DEVELOPER_IQ/assets/64655854/f7449e75-6177-474f-8dee-d79b610b6d63)
+
 ![image](https://github.com/DevaniYasora/DEVELOPER_IQ/assets/64655854/1ee4ca5d-2ff8-4cc9-8d66-33d6c10b43ee)
 
+**Step 03: Dynamodb**
+Created 2 tables to store and retrieve data from dynamodb in was.
+![image](https://github.com/DevaniYasora/DEVELOPER_IQ/assets/64655854/74233d9e-a0ed-4cf8-a97b-5e7aa658311b)
 
 
 
