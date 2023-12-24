@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: fetch-git-data
+  labels:
+    app: fetch-git-data
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: fetch-git-data
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxSurge: 3
+  template:
+    metadata:
+      labels:
+        app: fetch-git-data
+    spec:
+      containers:
+      - name: fetch-git-data
+        image: 913222011643.dkr.ecr.ap-southeast-1.amazonaws.com/fetch-git-data:latest
+        imagePullPolicy: Always
+        ports:
+            - containerPort: 5004

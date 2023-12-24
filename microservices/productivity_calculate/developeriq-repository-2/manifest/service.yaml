@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: productivity-cal
+spec:
+  selector:
+    app: productivity-cal
+  type: NodePort
+  selector:
+    app: productivity-cal
+  ports:
+  - protocol: TCP
+    nodePort: 30007
+    port: 5006
+    targetPort: 5006
+  type: LoadBalancer

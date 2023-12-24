@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: fetch-git-data
+spec:
+  selector:
+    app: fetch-git-data
+  type: NodePort
+  selector:
+    app: fetch-git-data
+  ports:
+  - protocol: TCP
+    nodePort: 30006
+    port: 5004
+    targetPort: 5004 
+  type: LoadBalancer

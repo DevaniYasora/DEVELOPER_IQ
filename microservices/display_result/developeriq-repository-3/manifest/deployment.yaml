@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: displayresults
+  labels:
+    app: displayresults
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: displayresults
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxSurge: 3
+  template:
+    metadata:
+      labels:
+        app: displayresults
+    spec:
+      containers:
+      - name: displayresults
+        image: 913222011643.dkr.ecr.ap-southeast-1.amazonaws.com/displayresults:latest 
+        imagePullPolicy: Always
+        ports:
+            - containerPort: 5007
