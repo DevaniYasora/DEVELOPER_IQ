@@ -42,6 +42,8 @@ measure of the complexity or impact of a user's code changes.
 
 
 **DEVELOPMENT ARCHITECTURE**
+![image](https://github.com/DevaniYasora/DEVELOPER_IQ/assets/64655854/f8c5819f-0772-4a01-8a14-bbcd64140fe7)
+
 
 **Step 01: Developed an EKS Cluster:**
 Refer below mentioned link to create EKS cluster
