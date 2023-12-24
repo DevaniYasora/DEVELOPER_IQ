@@ -73,6 +73,27 @@ To calculate the productivity of each developer we need to identify the develope
 Then extract number of additions, deletion and all commit details for each developer.
 Finally extract issues created and issues comments (The developer's involvement is being assessed, covering issues they've initiated, including pull requests and common bug reports. Furthermore, we are examining the extent of the developer's engagement with open issues, which encompasses both pull request reviews and responses to reported bugs.)
 ![image](https://github.com/DevaniYasora/DEVELOPER_IQ/assets/64655854/63e44dce-5a84-495a-9efe-ece84348feb9)
+
+In this stage extracted data calling 4 APIs.
+1- https://api.github.com/repos/freeCodeCamp/mobile/contributors (get contributeror loging details)
+![image](https://github.com/DevaniYasora/DEVELOPER_IQ/assets/64655854/2d3030c8-fde1-4741-811e-3b80f0f102a3)
+
+2- get_commit_stats(repo_owner, repo_name, contributor_login, token, time_frame) : https://api.github.com/repos/freeCodeCamp/mobile/stats/contributors (calculate weekly, monthly and yearly a,d,c values)
+![image](https://github.com/DevaniYasora/DEVELOPER_IQ/assets/64655854/baa60d61-8f58-404d-aa2b-5cf58b8dbd82)
+
+3- CONTRIBUTOR_ISSUES_URI__(repo_owner, repo_name, contributor_login, token) : https://api.github.com/repos/freeCodeCamp/mobile/issues/comments (comments on issues - calculate number of comments on a issue by a user)
+![image](https://github.com/DevaniYasora/DEVELOPER_IQ/assets/64655854/c25da2db-1bd2-450a-a9e2-13d78c4f0a18)
+
+4- CONTRIBUTOR_ISSUES_URI__(repo_owner, repo_name, contributor_login, token): https://api.github.com/repos/freeCodeCamp/mobile/issues (calculate the number of issues created weekly, monthly and yearly.
+![image](https://github.com/DevaniYasora/DEVELOPER_IQ/assets/64655854/812b5ba9-4d15-4d24-8b97-7af3574b5f68)
+
+
+
+
+
+
+![image](https://github.com/DevaniYasora/DEVELOPER_IQ/assets/64655854/edd69b36-b9b6-4c81-8667-145daa6be642)
+
  
 
 ii-	Summarized collected data – productivity matrix: 1
