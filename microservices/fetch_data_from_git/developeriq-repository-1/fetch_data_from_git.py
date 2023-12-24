@@ -8,15 +8,15 @@ from dateutil.relativedelta import relativedelta
 import boto3
 
 #GITHUB token details
-USER_NAME = "DevaniYasora"
-token = "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"
+USER_NAME = "your_details"
+token = "your_details"
 
 #Define DynamoDB tale
 dynamodb_table_name = 'contributers_detalis_new'
 
 # AWS CREDENTIALS AND DETAILS
-aws_access_key_id = 'AKIA5JICGBL56S3FVLQ4'
-aws_secret_access_key = '0o7geBhdS8ztAmQlSHhgEP3FlE+WQQCuppt4B1zF'
+aws_access_key_id = 'your_details'
+aws_secret_access_key = 'your_details'
 region_name = 'ap-southeast-1'
 
 # Create a DynamoDB resource
@@ -212,7 +212,7 @@ def get_contributions():
     # Replace these values with the actual repository owner, name, and token
     repo_owner = "freeCodeCamp"
     repo_name = "mobile"
-    github_token = "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"
+    github_token = "your_details"
 
     # Fetch contributions for the repository
     contributions, contributor_info = fetch_repository_contributions(repo_owner, repo_name, github_token)
