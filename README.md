@@ -22,11 +22,37 @@ Also, the IT department wants to automate the service build and deployment of th
 Solution:**
 > **Deploying a Python-based Microservice Application on AWS EKS**
 
+**DEVELOPERIQ SOLUTION**
+Repository Details
+  Repo Owner :freeCodeCamp | Repo Name : Mobile
+  
+productivity matrix: 1 : Summarized collected data
+  Calculated each and every developer’s total commit addition, total commit deletions, total number of commits in weekly, monthly and yearly basis
+Summarize the number of issues created and issues comments for each developer for a weekly, monthly and yearly basis.
+
+productivity matrix: 2 : User's productivity based on their interactions
+Matrix 1 is calculated by combining the counts of comments and issues created by a developer. Reflects a user's productivity based on their interactions, such as comments and issues created, over different time intervals (weekly, monthly, and yearly). 
+![image](https://github.com/DevaniYasora/DEVELOPER_IQ/assets/64655854/6f82608c-c1bc-40bd-854d-1b61dc96a5d1)
+
+productivity matrix: 3 : User's commit productivity
+user's commit productivity by considering the logarithmic ratio of additions and deletions to the total number of commits
+measure of the complexity or impact of a user's code changes.
+![image](https://github.com/DevaniYasora/DEVELOPER_IQ/assets/64655854/011bc557-4949-4998-8fd6-ad286c6ca867)
+
+
+
+**DEVELOPMENT ARCHITECTURE**
+
 **Step 01: Developed an EKS Cluster:**
 Refer below mentioned link to create EKS cluster
 reference: https://archive.eksworkshop.com/010_introduction/
 
 Number of nodes: 3
 ![image](https://github.com/DevaniYasora/DEVELOPER_IQ/assets/64655854/198a6416-6e5b-4097-b88a-d8f78f0a0130)
+
+
+![image](https://github.com/DevaniYasora/DEVELOPER_IQ/assets/64655854/c947f2a8-dcdf-47a8-95f3-68ae0262f898)
+
+
 
 
